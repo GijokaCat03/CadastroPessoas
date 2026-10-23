@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CadastroPessoas
 {
-    internal class Cliente : Pessoa
+    public class Cliente : Pessoa
     {
         public string CodigoCliente;
 

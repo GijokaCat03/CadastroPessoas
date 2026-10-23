@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CadastroPessoas
 {
-    internal class Funcionario : Pessoa
+    public class Funcionario : Pessoa
     {
         public decimal Salario;
 
