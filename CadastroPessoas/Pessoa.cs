@@ -39,7 +39,7 @@ namespace CadastroPessoas
 
 
 
-        public void Apresentar()
+        public virtual void Apresentar()
         {
             Console.WriteLine("Nome: " + GetNome());
             Console.WriteLine("Idade: " + Idade);
