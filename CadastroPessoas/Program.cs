@@ -38,7 +38,9 @@ namespace CadastroPessoas
             gerente.ExibirDadosGerente();
 
             cliente.SetNome("Ana Souza");
-            cliente.SetIdade(28);
+            cliente.Idade = 28;
+            Console.WriteLine(cliente.Idade);
+
 
             cliente.CodigoCliente = "CLI-001";
             Console.WriteLine(cliente.CodigoCliente);

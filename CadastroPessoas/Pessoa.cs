@@ -11,6 +11,21 @@ namespace CadastroPessoas
         private string nome;
         private int idade;
 
+        public int Idade
+        {
+            get
+            {
+                return idade;
+            }
+            set
+            {
+                if (value >= 0)
+                {
+                    idade = value;
+                }
+            }
+        }
+
         public string GetNome()
         {
             return nome;
@@ -21,20 +36,13 @@ namespace CadastroPessoas
             nome = novoNome;
         }
 
-        public int GetIdade()
-        {
-            return idade;
-        }
-
-        public void SetIdade(int novaIdade)
-        {
-            idade = novaIdade;
-        }
+        
+        
 
         public void Apresentar()
         {
             Console.WriteLine("Nome: " + GetNome());
-            Console.WriteLine("Idade: " + GetIdade());
+            Console.WriteLine("Idade: " + Idade);
 
         }
 
