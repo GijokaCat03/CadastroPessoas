@@ -45,6 +45,8 @@ namespace CadastroPessoas
             cliente.CodigoCliente = "CLI-001";
             Console.WriteLine(cliente.CodigoCliente);
 
+            cliente.Apresentar();
+            cliente.Apresentar(true);
 
 
             Console.ReadKey();
