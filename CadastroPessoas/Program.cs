@@ -56,6 +56,14 @@ namespace CadastroPessoas
             pessoaFuncionario.Apresentar();
             pessoaGerente.Apresentar();
 
+            Cliente clienteSemCodigo = new Cliente("Bruno Lima", 31);
+
+            Cliente clienteComCodigo = new Cliente(
+                "Ana Souza",
+                28,
+                "CLI-001");
+
+
 
 
             Console.ReadKey();
