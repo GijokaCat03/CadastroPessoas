@@ -37,6 +37,10 @@ namespace CadastroPessoas
             Console.WriteLine("=== GERENTE ===");
             gerente.ExibirDadosGerente();
 
+            cliente.SetNome("Ana Souza");
+            cliente.SetIdade(28);
+
+
             Console.ReadKey();
         }
     }
